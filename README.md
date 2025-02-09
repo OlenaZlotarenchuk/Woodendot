@@ -1,7 +1,7 @@
 🔗 [**Woodendot**](https://olenazlotarenchuk.github.io/Woodendot/)
 ---
 
-### 📖 Desctiption:
+### 📖 Description:
 
 Woodendot creates high-quality, eco-friendly wooden furniture and decor. <br>
 The website is a place where users can explore beautifully designed wooden pieces, learn about the brand’s values, and see how each product is made.<br>
