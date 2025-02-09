@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:ital@0;1&family=Roboto:wght@400;700&display=swap');
+
+$font-primary:"Montserrat", sans-serif;
+$font-Roboto:"Roboto", sans-serif;
+$font-Cardo:"Cardo", serif;
+
+
+$font-size-base: 18px;
+$font-size-h1: 67px;
+$font-size-h2: 30px;
+$font-size-h3: 33px;
+$font-size-h4: 24px;
+
+
+$font-weight-bold: 700;
+
+
+$background-color: #F7F7F7;
+
+.h1 {
+    font-family: $font-Cardo;
+    font-size: $font-size-h1;
+    font-weight: $font-weight-bold;
+    line-height: 70px;
+    letter-spacing: 0.2px;
+    color: $white;
+
+}
+
+.h2 {
+    font-family: $font-Cardo;
+    font-size: $font-size-h2;
+    font-weight: $font-weight-bold;
+    line-height: 39px;
+    color: #3A3A3A;
+    text-align: center;
+}
+
+.h3 {
+    font-family: $font-Roboto;
+    font-size: $font-size-h3;
+    font-weight: $font-weight-bold;
+    line-height: 56px;
+}
+
+.h4 {
+    font-family: $font-Cardo;
+    font-size: $font-size-h4;
+    font-size: 24px;
+    line-height: 34px;
+    color: $black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.h5 {
+    font-family: $font-Cardo;
+    font-size: $font-size-h4;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    color: #454545;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: $font-Cardo;
+    line-height: 37px;
+    font-style: italic;
+}
+
+.text {
+    font-family: $font-Cardo;
+    font-size: $font-size-base;
+    line-height: 30px;
+    color: #525252;
+    &::selection {
+        background-color: $black;
+        color: $white;
+    }
+
+}
+
+a::selection,
+p::selection {
+    background-color: $black;
+    color: $white;
+}
+
+.h1::selection,
+.h2::selection,
+.h3::selection,
+.h4::selection,
+.h5::selection,
+.text::selection,
+.subtitle::selection,
+.advantages__text::selection,
+.advantages__review::selection,
+.shop__price::selection,
+.shop__details::selection,
+.reviews__suptitle::selection,
+.quote__text::selection,
+.about__text::selection {
+    background-color: $black;
+    color: $white;
+}
+
+
+
+
